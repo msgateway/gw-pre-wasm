@@ -1,0 +1,2 @@
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/Users/manjeetsingh/recrypt-wasm-binding/target/debug/build/typenum-ddede782aa1a7486/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=/Users/manjeetsingh/recrypt-wasm-binding/target/debug/build/typenum-ddede782aa1a7486/out/op.rs

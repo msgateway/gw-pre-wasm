@@ -1,0 +1,35 @@
+/* tslint:disable */
+/* eslint-disable */
+export const memory: WebAssembly.Memory;
+export function __wbg_api256_free(a: number): void;
+export function api256_new(): number;
+export function api256_generateKeyPair(a: number, b: number): void;
+export function api256_generateEd25519KeyPair(a: number, b: number): void;
+export function api256_ed25519Sign(a: number, b: number, c: number, d: number, e: number, f: number): void;
+export function api256_ed25519Verify(a: number, b: number, c: number, d: number, e: number, f: number, g: number): number;
+export function api256_computeEd25519PublicKey(a: number, b: number, c: number, d: number): void;
+export function api256_generatePlaintext(a: number, b: number): void;
+export function api256_generateTransformKey(a: number, b: number, c: number, d: number, e: number, f: number, g: number): void;
+export function api256_computePublicKey(a: number, b: number, c: number, d: number): void;
+export function api256_hash256(a: number, b: number, c: number, d: number): void;
+export function api256_deriveSymmetricKey(a: number, b: number, c: number, d: number): void;
+export function api256_encrypt(a: number, b: number, c: number, d: number, e: number, f: number, g: number): void;
+export function api256_transform(a: number, b: number, c: number, d: number, e: number, f: number): void;
+export function api256_decrypt(a: number, b: number, c: number, d: number, e: number): void;
+export function api256_schnorrSign(a: number, b: number, c: number, d: number, e: number, f: number, g: number): void;
+export function api256_schnorrVerify(a: number, b: number, c: number, d: number, e: number, f: number, g: number, h: number, i: number): void;
+export function __wbg_encryptedsearch_free(a: number): void;
+export function encryptedsearch_new(): number;
+export function encryptedsearch_generateHashesForString(a: number, b: number, c: number, d: number, e: number, f: number, g: number, h: number): void;
+export function encryptedsearch_generateHashesForStringWithPadding(a: number, b: number, c: number, d: number, e: number, f: number, g: number, h: number): void;
+export function encryptedsearch_transliterateString(a: number, b: number, c: number): void;
+export function transformKeyToBytes256(a: number, b: number): void;
+export function augmentTransformKey256(a: number, b: number, c: number, d: number): void;
+export function augmentPublicKey256(a: number, b: number, c: number): void;
+export function addPrivateKeys(a: number, b: number, c: number, d: number, e: number): void;
+export function subtractPrivateKeys(a: number, b: number, c: number, d: number, e: number): void;
+export function __wbindgen_malloc(a: number, b: number): number;
+export function __wbindgen_realloc(a: number, b: number, c: number, d: number): number;
+export function __wbindgen_add_to_stack_pointer(a: number): number;
+export function __wbindgen_free(a: number, b: number, c: number): void;
+export function __wbindgen_exn_store(a: number): void;

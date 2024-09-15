@@ -1,0 +1,1 @@
+{"rustc":1777568847815000409,"features":"[]","declared_features":"[\"jobserver\", \"parallel\"]","target":15558527229170934796,"profile":5021246842660103139,"path":17207846622420200639,"deps":[],"local":[{"CheckDepInfo":{"dep_info":"release/.fingerprint/cc-1fe00325ab65a986/dep-lib-cc"}}],"rustflags":[],"metadata":16504835547841594983,"config":2202906307356721367,"compile_kind":0}
